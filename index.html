@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tipo de Aprendizaje</title>
+</head>
+<body>
+    <h1>Descubre tu Tipo de Aprendizaje</h1>
+    <form id="quizForm">
+        <label for="question1">Pregunta 1: ¿Prefieres aprender a través de la práctica?</label>
+        <input type="radio" name="question1" value="kinestesico"> Sí
+        <input type="radio" name="question1" value="no_kinestesico"> No
+
+        <label for="question2">Pregunta 2: ¿Recuerdas mejor la información cuando la escuchas?</label>
+        <input type="radio" name="question2" value="auditivo"> Sí
+        <input type="radio" name="question2" value="no_auditivo"> No
+
+        <label for="question3">Pregunta 3: ¿Te resulta más efectivo aprender con imágenes o diagramas?</label>
+        <input type="radio" name="question3" value="visual"> Sí
+        <input type="radio" name="question3" value="no_visual"> No
+
+        <label for="question4">Pregunta 4: ¿Disfrutas de las actividades al aire libre?</label>
+        <input type="radio" name="question4" value="kinestesico"> Sí
+        <input type="radio" name="question4" value="no_kinestesico"> No
+
+        <label for="question5">Pregunta 5: ¿Prefieres escuchar música mientras estudias o trabajas?</label>
+        <input type="radio" name="question5" value="auditivo"> Sí
+        <input type="radio" name="question5" value="no_auditivo"> No
+
+        <label for="question6">Pregunta 6: ¿Tienes facilidad para recordar caras o lugares?</label>
+        <input type="radio" name="question6" value="visual"> Sí
+        <input type="radio" name="question6" value="no_visual"> No
+
+        <label for="question7">Pregunta 7: ¿Te resulta más fácil aprender siguiendo un manual de instrucciones?</label>
+        <input type="radio" name="question7" value="visual"> Sí
+        <input type="radio" name="question7" value="no_visual"> No
+
+        <label for="question8">Pregunta 8: ¿Suelen gustarte los juegos que requieren coordinación física?</label>
+        <input type="radio" name="question8" value="kinestesico"> Sí
+        <input type="radio" name="question8" value="no_kinestesico"> No
+
+        <label for="question9">Pregunta 9: ¿Te sientes más concentrado cuando estás en un lugar tranquilo?</label>
+        <input type="radio" name="question9" value="auditivo"> Sí
+        <input type="radio" name="question9" value="no_auditivo"> No
+
+        <label for="question10">Pregunta 10: ¿Te resulta fácil seguir direcciones escritas detalladas?</label>
+        <input type="radio" name="question10" value="visual"> Sí
+        <input type="radio" name="question10" value="no_visual"> No
+
+        <button type="button" onclick="calculateLearningStyle()">Calcular</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
